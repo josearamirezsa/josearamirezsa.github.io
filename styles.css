@@ -1,0 +1,97 @@
+body {
+    background: #373B44;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #4286f4, #373B44);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #4286f4, #373B44);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#inner-container {
+    background-color: rgba(33, 37, 49, 0.5);
+    color: white;
+}
+
+#play-store-background {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.border-radius-25 {
+    border-radius: 25px;
+}
+
+.border-radius-10 {
+    border-radius: 10px;
+}
+
+.own-border-right {
+    border-right: 1px solid rgba(0, 0, 0, .2);
+}
+
+.own-border-left {
+    border-left: 1px solid rgba(0, 0, 0, .2);
+}
+
+.own-border-color {
+    border-color: rgba(0, 0, 0, 0.2);
+}
+
+.button-icon {
+    width: 15px;
+}
+
+.btn-light,
+.btn-light:active,
+.btn-light:hover,
+.btn-light:focus {
+    color: #212529;
+    background-color: #f8f9fa !important;
+    border-color: #f8f9fa !important;
+    box-shadow: none !important;
+}
+
+#main-image {
+    width: 50%;
+}
+
+.info-icon {
+    width: 19px;
+}
+
+@media only screen and (max-width: 575px) {
+    h5 {
+        font-size: medium;
+    }
+    .info-icon {
+        width: 15px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+    h5 {
+        font-size: large;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #main-image {
+        width: 70%;
+    }
+
+    h1 {
+        font-size: x-large;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    h1 {
+        font-size: xx-large;
+    }
+}
+
+
+a[data-toggle="popover"] {
+    text-decoration: none !important;
+}
